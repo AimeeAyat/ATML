@@ -1,0 +1,14 @@
+{
+  "plain": {
+    "acc_procrustes_L2": 61.712500000000006,
+    "acc_procrustes_noL2": 68.9375
+  },
+  "short": {
+    "acc_procrustes_L2": 60.02499999999999,
+    "acc_procrustes_noL2": 60.95
+  },
+  "variants": {
+    "acc_procrustes_L2": 60.12499999999999,
+    "acc_procrustes_noL2": 64.9625
+  }
+}

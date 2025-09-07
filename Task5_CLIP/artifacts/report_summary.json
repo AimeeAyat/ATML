@@ -1,0 +1,35 @@
+{
+  "baseline_zero_shot": {
+    "plain": {
+      "acc": 95.375
+    },
+    "short": {
+      "acc": 96.72500000000001
+    },
+    "variants": {
+      "acc": 96.5875
+    }
+  },
+  "mean_paired_cosine": {
+    "mean_cosine_pre": 0.2704313099384308,
+    "mean_cosine_post_L2": 0.8707431554794312,
+    "mean_cosine_post_noL2": 0.8707432746887207
+  },
+  "aligned_zero_shot": {
+    "procrustes_L2": {
+      "acc_plain": 94.7125,
+      "acc_short": 96.72500000000001,
+      "acc_variants": 96.8375
+    },
+    "procrustes_noL2": {
+      "acc_plain": 94.575,
+      "acc_short": 96.675,
+      "acc_variants": 96.8625
+    }
+  },
+  "notes": [
+    "Cosine similarity is computed on L2-normalized pairs (image, text).",
+    "Orthogonal Procrustes preserves norms and distances; L2-normalized solve is more stable.",
+    "Prompt ensembling typically outperforms single-word labels."
+  ]
+}
