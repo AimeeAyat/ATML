@@ -1,2 +1,0 @@
-# ATML
-Assignment 0
