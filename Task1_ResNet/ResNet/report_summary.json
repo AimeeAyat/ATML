@@ -1,0 +1,33 @@
+{
+  "baseline": {
+    "plain": {
+      "acc": 95.375
+    },
+    "short": {
+      "acc": 96.72500000000001
+    },
+    "variants": {
+      "acc": 96.6125
+    }
+  },
+  "aligned": {
+    "plain": {
+      "acc_procrustes_L2": 59.699999999999996,
+      "acc_procrustes_noL2": 64.45
+    },
+    "short": {
+      "acc_procrustes_L2": 80.9875,
+      "acc_procrustes_noL2": 68.1875
+    },
+    "variants": {
+      "acc_procrustes_L2": 80.4375,
+      "acc_procrustes_noL2": 70.8875
+    }
+  },
+  "notes": [
+    "CLIP features are L2-normalized; cosine similarity is dot product.",
+    "Prompt ensembling (variants) typically > short > plain.",
+    "Procrustes is orthogonal (rotation/reflection); preserves norms and pairwise distances.",
+    "L2-normalizing features before Procrustes often yields better alignment (consistent scale)."
+  ]
+}
