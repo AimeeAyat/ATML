@@ -1,0 +1,31 @@
+{
+  "models": [
+    "google/vit-base-patch16-224",
+    "facebook/deit-base-patch16-224",
+    "google/vit-large-patch16-224"
+  ],
+  "pooling_methods": [
+    "cls",
+    "mean"
+  ],
+  "mask_keep_ratios": [
+    1.0,
+    0.7,
+    0.4
+  ],
+  "results": {
+    "linear_probes": {
+      "google/vit-base-patch16-224": {
+        "cls": 0.962,
+        "mean": 0.962
+      },
+      "facebook/deit-base-patch16-224": {
+        "cls": 0.9075,
+        "mean": 0.917
+      },
+      "google/vit-large-patch16-224": {
+        "cls": 0.974,
+        "mean": 0.972
+      }
+    }
+  }

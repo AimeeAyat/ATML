@@ -1,0 +1,146 @@
+[
+  {
+    "model": "google/vit-base-patch16-224",
+    "sample_idx": 0,
+    "pred_id": 161,
+    "pred_label": "basset, basset hound",
+    "pred_conf": 0.26358160376548767,
+    "cifar10_label": "dog"
+  },
+  {
+    "model": "google/vit-base-patch16-224",
+    "sample_idx": 1,
+    "pred_id": 32,
+    "pred_label": "tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui",
+    "pred_conf": 0.9774892926216125,
+    "cifar10_label": "frog"
+  },
+  {
+    "model": "google/vit-base-patch16-224",
+    "sample_idx": 2,
+    "pred_id": 895,
+    "pred_label": "warplane, military plane",
+    "pred_conf": 0.06186937168240547,
+    "cifar10_label": "airplane"
+  },
+  {
+    "model": "google/vit-base-patch16-224",
+    "sample_idx": 3,
+    "pred_id": 335,
+    "pred_label": "fox squirrel, eastern fox squirrel, Sciurus niger",
+    "pred_conf": 0.17404739558696747,
+    "cifar10_label": "bird"
+  },
+  {
+    "model": "google/vit-base-patch16-224",
+    "sample_idx": 4,
+    "pred_id": 675,
+    "pred_label": "moving van",
+    "pred_conf": 0.8123816251754761,
+    "cifar10_label": "truck"
+  },
+  {
+    "model": "google/vit-base-patch16-224",
+    "sample_idx": 5,
+    "pred_id": 9,
+    "pred_label": "ostrich, Struthio camelus",
+    "pred_conf": 0.9777165055274963,
+    "cifar10_label": "bird"
+  },
+  {
+    "model": "facebook/deit-base-patch16-224",
+    "sample_idx": 0,
+    "pred_id": 155,
+    "pred_label": "Shih-Tzu",
+    "pred_conf": 0.1581089198589325,
+    "cifar10_label": "dog"
+  },
+  {
+    "model": "facebook/deit-base-patch16-224",
+    "sample_idx": 1,
+    "pred_id": 32,
+    "pred_label": "tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui",
+    "pred_conf": 0.24421854317188263,
+    "cifar10_label": "frog"
+  },
+  {
+    "model": "facebook/deit-base-patch16-224",
+    "sample_idx": 2,
+    "pred_id": 699,
+    "pred_label": "panpipe, pandean pipe, syrinx",
+    "pred_conf": 0.03932584449648857,
+    "cifar10_label": "airplane"
+  },
+  {
+    "model": "facebook/deit-base-patch16-224",
+    "sample_idx": 3,
+    "pred_id": 10,
+    "pred_label": "brambling, Fringilla montifringilla",
+    "pred_conf": 0.12609930336475372,
+    "cifar10_label": "bird"
+  },
+  {
+    "model": "facebook/deit-base-patch16-224",
+    "sample_idx": 4,
+    "pred_id": 675,
+    "pred_label": "moving van",
+    "pred_conf": 0.07961009442806244,
+    "cifar10_label": "truck"
+  },
+  {
+    "model": "facebook/deit-base-patch16-224",
+    "sample_idx": 5,
+    "pred_id": 9,
+    "pred_label": "ostrich, Struthio camelus",
+    "pred_conf": 0.14284268021583557,
+    "cifar10_label": "bird"
+  },
+  {
+    "model": "google/vit-large-patch16-224",
+    "sample_idx": 0,
+    "pred_id": 194,
+    "pred_label": "Dandie Dinmont, Dandie Dinmont terrier",
+    "pred_conf": 0.636603057384491,
+    "cifar10_label": "dog"
+  },
+  {
+    "model": "google/vit-large-patch16-224",
+    "sample_idx": 1,
+    "pred_id": 32,
+    "pred_label": "tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui",
+    "pred_conf": 0.9881057739257812,
+    "cifar10_label": "frog"
+  },
+  {
+    "model": "google/vit-large-patch16-224",
+    "sample_idx": 2,
+    "pred_id": 512,
+    "pred_label": "corkscrew, bottle screw",
+    "pred_conf": 0.3439367711544037,
+    "cifar10_label": "airplane"
+  },
+  {
+    "model": "google/vit-large-patch16-224",
+    "sample_idx": 3,
+    "pred_id": 95,
+    "pred_label": "jacamar",
+    "pred_conf": 0.20674698054790497,
+    "cifar10_label": "bird"
+  },
+  {
+    "model": "google/vit-large-patch16-224",
+    "sample_idx": 4,
+    "pred_id": 675,
+    "pred_label": "moving van",
+    "pred_conf": 0.7095737457275391,
+    "cifar10_label": "truck"
+  },
+  {
+    "model": "google/vit-large-patch16-224",
+    "sample_idx": 5,
+    "pred_id": 9,
+    "pred_label": "ostrich, Struthio camelus",
+    "pred_conf": 0.9709272980690002,
+    "cifar10_label": "bird"
+  }
+]
